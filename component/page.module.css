@@ -1,0 +1,11 @@
+.navbarDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav1 {
+  align-items: center;
+}
+.nav2 {
+  align-items: center;
+}
