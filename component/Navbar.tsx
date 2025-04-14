@@ -33,7 +33,10 @@ export default function Navbar() {
           className={`${styles.nav1} w-[40%] flex justify-between align-middle
           max-md:hidden   `}
         >
-          <span className="text-[20px] font-bold ">SmartSEO</span>
+          <span className="text-[20px] font-bold ">
+            {" "}
+            <img src={mNav} alt="" />{" "}
+          </span>
           <span>Home</span>
           <span>Pages</span>
           <span>Portfolio</span>
