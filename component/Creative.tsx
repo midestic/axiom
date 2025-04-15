@@ -6,7 +6,7 @@ let svg2 = "/images/csvg2.svg";
 export default function Creative() {
   return (
     <div
-      className="flex  justify-center  py-[40px] 
+      className="flex  justify-center  py-[100px] 
    max-md:flex max-md:flex-col "
     >
       <div

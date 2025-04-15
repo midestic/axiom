@@ -3,12 +3,7 @@ let hero = "/images/ero.png";
 
 export default function Hero() {
   return (
-    <div
-      className="w-[100%]  h-[100vh] translate-y-[-100px] bg-white  
-    
-    
-    "
-    >
+    <div className="w-[100%]  h-[100vh]  bg-white">
       <img
         className=" w-[100%] max-md:h-[70vh]  
       max-md:scale-[1.5] "

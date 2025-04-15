@@ -8,7 +8,7 @@ let mNav = "/images/m-nav.png";
 export default function Navbar() {
   return (
     <div>
-      <div className="hidden max-md:block z-10 relative  p-[10px]  ">
+      <div className="hidden max-md:block z-10 relative  p-[10px]   ">
         <div className="flex justify-between">
           <img src={mNav} alt="" />
           <div className="w-[20%] flex text-white">
@@ -22,8 +22,8 @@ export default function Navbar() {
         </div>
       </div>
       <div
-        className={`${styles.navbarDiv} flex justify-around  align-middle 
-       z-2 relative text-[white] py-5  font-bold
+        className={`${styles.navbarDiv} flex justify-around absolute align-middle w-[100%]
+       z-2  text-[white] py-5  font-bold
          max-md:hidden 
       
        
