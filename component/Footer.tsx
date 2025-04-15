@@ -4,7 +4,7 @@ let foot = "/images/foot.svg";
 
 export default function Footer() {
   return (
-    <div className="  text-white">
+    <div className="  text-white  ">
       {/* <div
           className="w-[100%] h-[800px] bg-[url('/images/foot.svg')] 
         bg-cover bg-center transform scale-y-[-1]"
@@ -12,9 +12,12 @@ export default function Footer() {
 
       <div
         className="w-full h-[300px] bg-[url('/images/foot.svg')]
-         bg-cover bg-center transform scale-y-[-1]  max-md:stre  "
+         bg-cover bg-center transform scale-y-[-1]  max-md:stre   "
       ></div>
-      <div className="bg-[#000000] p-[50px] max-md:p-[10px] max-md:w-[100vw]">
+      <div
+        className="bg-[#000000] p-[50px] max-md:p-[10px] max-md:w-[100vw]
+       "
+      >
         <div
           className=" w-[80%] mx-auto pb-[40px] flex justify-between bg-[#000000]
       max-md:grid max-md:grid-cols-2  max-md:w-[100%] "
@@ -66,13 +69,13 @@ export default function Footer() {
                 type="email"
                 placeholder="Enter Your Email Address"
               />{" "}
-              <button className="p-[16px] bg-[#5300f1] rounded-full">
+              <button className="p-[18px] bg-[#5300f1] rounded-full ml-[10px]">
                 <BiArrowToRight />{" "}
               </button>
             </p>
 
             <p>
-              <input className="  border" type="checkbox" /> I agree to{" "}
+              <input className="" type="checkbox" /> I agree to{" "}
               <a href="">the Privacy Policy</a>
             </p>
           </div>
